@@ -1,1 +1,24 @@
-h2 { color:red; }
+/*___________________________________________________#MAIN */
+div#app { background:gray; }
+#section_book { height:97vh; margin-top:20px; border:1px solid black; border-radius:11px; background:white; }
+#section_book #btn_open_book { position:relative; top:50%;  left:38%; display:block; }
+#section_book #btn_close_book { position:absolute; top:94%; left:38%; }
+/*___________________________________________________/MAIN */
+
+/*___________________________________________________#ALL USERS LIST Block */
+#section_book .all-users-list { overflow:scroll; width:100%; height:86vh; padding:5px; margin-top: 30px; } /*overflow:auto;*/
+#section_book .all-users-list-ul { list-style-type: none; }
+#section_book .all-users-list-ul > li:nth-of-type(1) { cursor:pointer; font-size:20px; }
+#section_book .all-users-list-ul > span { display:inline-block; float:left; font-size:20px; }
+#section_book .all-users-list-ul > img { width:100px; height:auto; margin-top:7px; outline:1px solid #e6dbdb;}
+/*___________________________________________________/ALL USERS LIST Block */
+
+
+/*___________________________________________________#VIEW SINGLE USER Block */
+#section_book .edit-user-block { margin-top:15px; }
+#section_book .edit-user-block .form-group { margin-bottom:9px; }
+#section_book .edit-user-block > img { height:240px; width:auto; margin-bottom: 12px; }
+/*___________________________________________________/VIEW SINGLE USER Block */
+
+/*___________________________________________________#EDIT SINGLE USER Block */
+/*___________________________________________________/EDIT SINGLE USER Block */
