@@ -1,11 +1,4 @@
-<?php
-header("Content-type:text/html; charset=utf-8"); // передаем заголовок с нужной кодировкой
-//include_once dirname(__FILE__)."example_vue_js.js"; //include my cusom javaScrip file
-$foo_test = 'test 1 string from PHP++';
-$foo_test2 = 'test 2 string from PHP';
-$foo_test_arr = array('a'=>'test value - 1', 'b'=>'test value - 2', 'c'=>'test value - 3');
-?>
-
+<?php header("Content-type:text/html; charset=utf-8"); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +15,7 @@ $foo_test_arr = array('a'=>'test value - 1', 'b'=>'test value - 2', 'c'=>'test v
 
 </head>
 
-<body><?php define('__ROOT__', dirname(dirname(__FILE__))); ?>
+<body>
 
 <div id="app">
     <div class='container-fluid my_cont_fluid'>
@@ -35,6 +28,8 @@ $foo_test_arr = array('a'=>'test value - 1', 'b'=>'test value - 2', 'c'=>'test v
 
     </div><!--/.container-fluid-->
 </div>
+
+
 </body>
 
 <script src="assets/js/main.js"></script>  <!-- подключ.javaScript-файла -->
